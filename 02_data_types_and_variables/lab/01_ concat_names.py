@@ -1,7 +1,7 @@
 # Input
-first_name = str(input())
-last_name = str(input())
-delimiter = str(input())
+first_name = (input())
+last_name = (input())
+delimiter = (input())
 
 # Calculation
 print_text = f"{first_name}{delimiter}{last_name}"
