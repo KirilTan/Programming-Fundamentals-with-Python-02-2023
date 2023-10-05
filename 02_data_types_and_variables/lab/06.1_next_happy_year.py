@@ -3,7 +3,6 @@ year = int(input())
 year_is_special = False
 
 # Calculations
-
 while not year_is_special:
 
     year += 1
