@@ -22,6 +22,7 @@ for current_day in range(1, days + 1):
         coins += group_size * 20    # Boss slain reward
         if current_day % 3 == 0:
             coins -= group_size * 2
+coins_per_person = floor(coins / group_size)
 
 # Output
-print(f"{group_size} companions received {floor(coins / group_size)} coins each.")
+print(f"{group_size} companions received {coins_per_person} coins each.")
