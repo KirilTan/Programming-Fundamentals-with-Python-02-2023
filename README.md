@@ -4,5 +4,5 @@
 
  1. Basic Syntax, Conditional Statements and Loops - lecture & exercises 
     02.10.2023
- 2. Data Types and Variables - lecture
-    05.10.2023
+ 2. Data Types and Variables - lecture & exercises
+    05.10.2023 & 06.10.2023
