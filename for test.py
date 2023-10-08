@@ -1,17 +1,16 @@
-# Inputs and constants
-number_of_inputs = int(input())
-capacity = 255  # In liters
+# Input
+num1 = int(input())
+num2 = int(input())
 
-# Calculations
-capacity_left = capacity
-water_poured = 0
-for line in range(number_of_inputs):
-    current_input = int(input())
-    if capacity_left - current_input < 0:
-        print("Insufficient capacity!")
-        continue
-    capacity_left -= current_input
-    water_poured += current_input
+# Print before swapping
+print(f"Before:\n"
+      f"a = {num1}\n"
+      f"b = {num2}")
 
-# Output
-print(water_poured)
+# Swapping values using tuple unpacking
+num1, num2 = num2, num1
+
+# Print after swapping
+print(f"After:\n"
+      f"a = {num1}\n"
+      f"b = {num2}")
