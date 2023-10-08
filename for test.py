@@ -1,12 +1,22 @@
-key = int(input())
+# Inputs
 number_of_inputs = int(input())
 
-result_characters = []
-
+# Check if balanced or not
+is_balanced = True
+last_bracket = ""
 for _ in range(number_of_inputs):
-    current_input = str(input())
-    current_input_value_after_key = key + ord(current_input)
-    result_characters.append(chr(current_input_value_after_key))
+    current_input = input()
+    if current_input not in ["(", ")"]:
+        continue
 
-final_string = ''.join(result_characters)
-print(final_string)
+    if last_bracket == "" and current_input == ")" or current_input == last_bracket:
+        is_balanced = False
+        break
+
+    last_bracket = current_input
+
+
+if is_balanced:
+    print("BALANCED")
+else:
+    print("UNBALANCED")
