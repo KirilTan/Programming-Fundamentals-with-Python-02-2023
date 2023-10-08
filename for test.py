@@ -1,4 +1,12 @@
-num = int(input())
-num1 = int(num**0.5) + 1
+key = int(input())
+number_of_inputs = int(input())
 
-print(num1)
+result_characters = []
+
+for _ in range(number_of_inputs):
+    current_input = str(input())
+    current_input_value_after_key = key + ord(current_input)
+    result_characters.append(chr(current_input_value_after_key))
+
+final_string = ''.join(result_characters)
+print(final_string)
