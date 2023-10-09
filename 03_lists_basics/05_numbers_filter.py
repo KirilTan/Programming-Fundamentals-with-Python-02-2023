@@ -1,4 +1,5 @@
 n = int(input())
+
 COMMAND_EVEN = 'even'
 COMMAND_ODD = 'odd'
 COMMAND_NEGATIVE = 'negative'
