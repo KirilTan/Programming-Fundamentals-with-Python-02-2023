@@ -14,4 +14,3 @@ for current_number in input_list:
     input_str = input_str.replace(input_str[current_number_sum], '', 1)
 
 print(*output_list, sep="")
-

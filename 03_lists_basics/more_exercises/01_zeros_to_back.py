@@ -9,4 +9,3 @@ for _ in range(number_of_zeros):
 print("[" +
       ", ".join(list_of_numbers)
       + "]")
-

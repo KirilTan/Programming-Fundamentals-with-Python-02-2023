@@ -29,4 +29,3 @@ board = [list(map(int, input().split())) for _ in range(3)]
 # Output
 result = check_winner(board)
 print(result)
-
