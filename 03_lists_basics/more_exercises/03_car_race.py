@@ -21,3 +21,4 @@ left_racer_time, right_racer_time = calculate_total_time(left_racer), calculate_
 # Output
 winner = "left" if left_racer_time < right_racer_time else "right"
 print(f"The winner is {winner} with total time: {left_racer_time if winner == 'left' else right_racer_time:.1f}")
+

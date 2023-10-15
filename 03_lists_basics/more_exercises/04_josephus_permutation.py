@@ -8,3 +8,4 @@ while circle:
     execution_order.append(circle.pop(index))
 
 print("[" + ",".join(execution_order) + "]")
+
