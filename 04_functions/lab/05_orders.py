@@ -4,7 +4,7 @@ water_price = 1.00
 coke_price = 1.40
 snacks_price = 2.00
 
-
+# Calculater prices
 def get_total_price(product: str, quantity: int):
     if product == "coffee":
         return f"{(coffee_price * quantity):.2f}"
@@ -18,8 +18,9 @@ def get_total_price(product: str, quantity: int):
         return "Invalid input"
 
 
+# Inputs
 product_type = input()
 amount = int(input())
 
-
+# Output
 print(get_total_price(product_type, amount))
