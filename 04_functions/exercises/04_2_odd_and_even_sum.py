@@ -1,4 +1,4 @@
-def sum_even_and_odd(number):
+def sum_even_and_odd(number: str) -> int and int:
     """
     Takes a number and returns the sum of all even numbers and odd numbers in that number.
     """
