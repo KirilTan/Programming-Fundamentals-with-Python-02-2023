@@ -1,25 +1,26 @@
-def sum_even_and_odd(number):
+def sum_even_and_odd(number: str) -> str:
     """
     Takes a number and returns the sum of all even numbers and odd numbers in that number.
     """
     number_as_list = list(number)
 
-    sum_of_even_numbers = 0
-    sum_of_odd_numbers = 0
+    even_numbers = []
+    odd_numbers = []
 
     for current_number in number_as_list:
         if int(current_number) % 2 == 0:
-            sum_of_even_numbers += int(current_number)
+            even_numbers.append(int(current_number))
         else:
-            sum_of_odd_numbers += int(current_number)
+            odd_numbers.append(int(current_number))
 
-    return sum_of_even_numbers, sum_of_odd_numbers
+    sum_of_even_numbers = sum(even_numbers)
+    sum_of_odd_numbers = sum(odd_numbers)
+
+    output_text = f"Odd sum = {sum_of_odd_numbers}, Even sum = {sum_of_even_numbers}"
+
+    return output_text
 
 
 input_number = input()
 
-sum_even, sum_odd = sum_even_and_odd(input_number)
-
-output_text = f"Odd sum = {sum_odd}, Even sum = {sum_even}"
-
-print(output_text)
+print(sum_even_and_odd(input_number))
