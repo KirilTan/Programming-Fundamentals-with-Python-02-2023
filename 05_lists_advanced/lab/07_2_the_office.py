@@ -27,7 +27,5 @@ total_employees = len(employee_happiness_list)
 happy_employees_count = amount_of_happy_employees(employee_happiness_list, happiness_improvement_factor)
 
 # Output
-if happy_employees_count >= (total_employees / 2):
-    print(f"Score: {happy_employees_count}/{total_employees}. Employees are happy!")
-else:
-    print(f"Score: {happy_employees_count}/{total_employees}. Employees are not happy!")
+happy_not_happy = "happy" if happy_employees_count >= (total_employees / 2) else "not happy"
+print(f"Score: {happy_employees_count}/{total_employees}. Employees are {happy_not_happy}!")
