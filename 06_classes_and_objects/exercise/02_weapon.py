@@ -1,5 +1,4 @@
 class Weapon:
-    bullets = 0
 
     def __init__(self, bullets):
         self.bullets = bullets
