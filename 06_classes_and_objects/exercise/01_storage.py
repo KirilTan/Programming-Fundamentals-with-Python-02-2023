@@ -10,4 +10,3 @@ class Storage:
 
     def get_products(self):  # returns the storage list
         return Storage.storage
-

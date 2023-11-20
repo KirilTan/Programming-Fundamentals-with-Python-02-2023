@@ -14,13 +14,13 @@ class Weapon:
         return f"Remaining bullets: {self.bullets}"
 
 
-# # Example Usage:
-# weapon = Weapon(5)
-# print(weapon.shoot())
-# print(weapon.shoot())
-# print(weapon)
-# print(weapon.shoot())
-# print(weapon.shoot())
-# print(weapon.shoot())
-# print(weapon.shoot())
-# print(weapon)
+# Example Usage:
+weapon = Weapon(5)
+print(weapon.shoot())
+print(weapon.shoot())
+print(weapon)
+print(weapon.shoot())
+print(weapon.shoot())
+print(weapon.shoot())
+print(weapon.shoot())
+print(weapon)
