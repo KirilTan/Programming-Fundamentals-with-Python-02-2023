@@ -10,7 +10,7 @@ while True:
         break
 
     name, ID, course = student_info.split(":")
-    students.append({"name": name,"ID": ID,"course": course})
+    students.append({"name": name, "ID": ID, "course": course})
 
 for current_student in students:
     if searched_course.startswith(current_student["course"][0:3]):
