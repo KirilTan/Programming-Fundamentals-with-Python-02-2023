@@ -3,7 +3,7 @@
  This repository will hold all of my work throughout the course
 
 Course start date: 12.09.2023   
-Mid-exam date: 22.10.2023   
+Mid-exam date: 22.10.2023
 Final exam date: 03.12.2023
 
  1. Basic Syntax, Conditional Statements and Loops
